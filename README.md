@@ -56,7 +56,7 @@ many2many_razs_widget/
 Use the widget on any many2many field in any view:
 
 ```xml
-<field name="tag_ids" widget="many2many_razs_tags"/>
+<field name="tag_ids" widget="many2many_razs" options="{'fields': ['name','email','phone']}"/>
 ```
 
 The field will automatically render as styled tags.
