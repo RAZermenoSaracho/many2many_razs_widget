@@ -31,16 +31,22 @@ https://drive.google.com/file/d/1lZom6mxbyCVIQvfjezfESfoTeqg-VYlo/view?usp=shari
 ## 🧱 Module Structure
 
 ```
-many2many_razs_widget/
-├── __init__.py
-├── __manifest__.py
-└── static/src
-    ├── js
-    │   └── many2many_razs_tags.js
-    ├── scss
-    │   └── many2many_razs_tags.scss
-    └── xml
-        └── many2many_razs_tags.xml
+├── LICENSE
+├── many2many_razs_widget
+│   ├── __init__.py
+│   ├── __manifest__.py
+│   └── static
+│       ├── description
+│       │   ├── icon.png
+│       │   └── icon.svg
+│       └── src
+│           ├── js
+│           │   └── many2many_razs_tags.js
+│           ├── scss
+│           │   └── many2many_razs_tags.scss
+│           └── xml
+│               └── many2many_razs_tags.xml
+└── README.md
 ```
 
 ---
