@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="many2many_razs.Tags">
+        <div class="o_field_many2manytags o_field_many2many_razs">
+            <t t-foreach="props.tags" t-as="tag" t-key="tag.id">
+                <span class="o_tag">
+                    <t t-esc="tag.label"/>
+                </span>
+            </t>
+        </div>
+    </t>
+
+</templates>
