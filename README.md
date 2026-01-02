@@ -1,15 +1,18 @@
 # Many2many Razs Tags Widget
 
-A custom **Many2many widget for Odoo** that renders many2many fields as clean, modern, and responsive **tags**, improving usability and visual clarity across **all view types**.
+A powerful and flexible **Many2many widget for Odoo** that renders many2many fields as clean, modern, and responsive **tags**, allowing you to **choose exactly which fields of the related record are displayed inside each tag**.
+
+This makes it ideal for scenarios where showing only the record name is not enough, and additional context (email, code, phone, etc.) is required — all while working seamlessly across **all Odoo view types**.
 
 The widget is lightweight, easy to integrate, and fully aligned with Odoo’s native UX.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- 📌 Displays many2many fields as tag-style elements
+- 🏷️ Displays many2many records as tag-style elements
 - 🧩 Works on **all Odoo view types** (form, tree, kanban, etc.)
+- 🔧 **Configurable tag content**: select which related fields appear in each tag
 - 🎨 Clean and modern UI using SCSS
 - ⚡ Lightweight JavaScript implementation
 - 🔌 Easy integration in any view
@@ -53,23 +56,29 @@ many2many_razs_widget/
 
 ## 🛠️ Usage
 
-Use the widget on any many2many field in any view:
+Apply the widget to any many2many field and specify which related fields should be displayed inside the tag using the `options` attribute.
+
+### Example
 
 ```xml
-<field name="tag_ids" widget="many2many_razs" options="{'fields': ['name','email','phone']}"/>
+<field name="tag_ids"
+       widget="many2many_razs"
+       options="{'fields': ['name', 'email', 'phone']}"/>
 ```
 
-The field will automatically render as styled tags.
+Each tag will render the selected fields in a compact and readable format, giving users immediate context without opening the related record.
 
 ---
 
 ## 🎯 Use Cases
 
-- Tags
-- Categories
-- Skills
-- Labels
-- Any many2many relationship that benefits from a compact visual display
+- Tags with additional metadata
+- Contacts (name + email / phone)
+- Products (name + internal reference)
+- Skills with levels or categories
+- Labels where extra context improves usability
+
+Any many2many relationship that benefits from **rich, informative tags**.
 
 ---
 
@@ -83,8 +92,11 @@ The field will automatically render as styled tags.
 
 ## 🎨 Styling
 
-A dedicated SCSS file is included, making it easy to customize colors, spacing,
-and adapt the widget to your custom theme.
+A dedicated SCSS file is included, making it easy to:
+
+- Customize colors
+- Adjust spacing
+- Adapt the widget to your custom theme
 
 Styles can be safely overridden from your own theme if needed.
 
@@ -95,6 +107,7 @@ Styles can be safely overridden from your own theme if needed.
 - JavaScript logic is isolated and non-intrusive
 - No core overrides
 - Safe to use alongside standard Odoo widgets
+- Does not affect existing many2many behavior
 
 ---
 

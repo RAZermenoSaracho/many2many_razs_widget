@@ -2,15 +2,21 @@
     "name": "Many2many Razs Tags Widget",
     "version": "16.0.1.0.0",
     "category": "Technical",
-    "summary": "Custom many2many tags widget for all view types",
+    "summary": "Configurable many2many tags widget for all view types",
     "description": """
 Many2many Razs Tags Widget
 
-This module adds a custom many2many widget that displays records as clean,
-modern tags across all Odoo view types, improving readability and usability.
+This module provides a custom many2many widget that displays related records
+as clean and modern tags across all Odoo view types.
+
+Unlike the standard many2many tag widget, this widget allows you to configure
+which fields of the related record are displayed inside each tag, making it
+possible to show additional context such as email, phone, internal reference,
+or any other relevant field.
 
 The widget is lightweight, non-intrusive, and fully compatible with Odoo’s
-standard many2many behavior.
+standard many2many behavior, while significantly improving readability and
+usability for relational fields.
 
 Demo:
 https://drive.google.com/file/d/1lZom6mxbyCVIQvfjezfESfoTeqg-VYlo/view?usp=sharing
