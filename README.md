@@ -31,7 +31,7 @@ https://drive.google.com/file/d/1lZom6mxbyCVIQvfjezfESfoTeqg-VYlo/view?usp=shari
 many2many_razs_widget/
 ├── __init__.py
 ├── __manifest__.py
-└── src
+└── static/src
     ├── js
     │   └── many2many_razs_tags.js
     ├── scss
