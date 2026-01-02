@@ -1,6 +1,6 @@
 {
     "name": "Many2many Razs Tags Widget",
-    "version": "16.0.1.0.0",
+    "version": "19.0.1.0.0",
     "category": "Technical",
     "summary": "Configurable many2many tags widget for all view types",
     "description": """

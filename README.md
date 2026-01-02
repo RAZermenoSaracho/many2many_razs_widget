@@ -84,7 +84,7 @@ Any many2many relationship that benefits from **rich, informative tags**.
 
 ## 🧩 Compatibility
 
-- Odoo 16+
+- Odoo 19+
 - Community & Enterprise editions
 - No external dependencies
 
