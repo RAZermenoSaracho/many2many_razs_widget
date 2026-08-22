@@ -22,7 +22,7 @@ Demo:
 https://drive.google.com/file/d/1lZom6mxbyCVIQvfjezfESfoTeqg-VYlo/view?usp=sharing
     """,
     "author": "Ricardo Zermeño",
-    "website": "https://razs.vercel.app/",
+    "website": "https://razs.dev/",
     "license": "LGPL-3",
     "depends": ["web"],
     "assets": {
